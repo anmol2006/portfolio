@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Anmol Bansal</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/67b423e13e.js"></script>
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <section class="coloured-section" id="title">
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href=""><img src="images/ablogo.png" class="logo-img" alt="AB-logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Title -->
+      <div class="row">
+        <div class="col-lg-5">
+          <h1 class="big-heading">Hi, I'm <br> Anmol Bansal.</h1>
+          <p class="title-description">A <span class="pro">pro</span>grammer.</p>
+          <p class="title-description">A developer.</p>
+          <!-- <p>I am an aspiring web developer, currently studying at Delhi Technological University.</p>
+          <p>I love programming, and have been doing so since many years!</p> -->
+        </div>
+        <div class="col-lg-6">
+          <img src="images/anmol.jpg" class="title-image" alt="my-image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+
+  <section class="white-section" id="skills">
+    <h2 class="skill-title">My Skill Set</h2>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 skill-box">
+          <i class="fab fa-html5 skill-button fa-5x"></i>
+          <h3 class="skill-heading">HTML 5</h3>
+        </div>
+        <div class="col-lg-4 skill-box">
+          <i class="fab fa-css3-alt skill-button fa-5x"></i>
+          <h3 class="skill-heading">CSS 3</h3>
+        </div>
+        <div class="col-lg-4 skill-box">
+          <i class="fab fa-js-square skill-button fa-5x"></i>
+          <h3 class="skill-heading">JavaScript ES6</h3>
+        </div>
+        <div class="col-lg-4 skill-box">
+          <i class="fab fa-php skill-button fa-5x"></i>
+          <h3 class="skill-heading">PHP</h3>
+        </div>
+        <div class="col-lg-4 skill-box">
+          <i class="fab fa-react skill-button fa-5x"></i>
+          <h3 class="skill-heading">ReactJS</h3>
+        </div>
+        <div class="col-lg-4 skill-box">
+          <i class="fab fa-node skill-button fa-5x"></i>
+          <h3 class="skill-heading">Node.js</h3>
+        </div>
+      </div>
+      <p class="skill-text">and more...</p>
+    </div>
+  </section>
+
+  <!-- Projects -->
+
+  <section class="coloured-section" id="projects">
+    <h2 class="section-heading">My Projects</h2>
+    <div id="project-carousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#project-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#project-carousel" data-slide-to="1"></li>
+        <li data-target="#project-carousel" data-slide-to="2"></li>
+        <li data-target="#project-carousel" data-slide-to="3"></li>
+        <li data-target="#project-carousel" data-slide-to="4"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="https://anmol2006.github.io/simongame/"><img src="images/simon-game.png" class="project-img" alt="simon-game-img"></a>
+          <div class="carousel-caption">
+            <h5>Simon Game</h5>
+            <p>A memory testing game built using jQuery</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/library-dbms.png" class="project-img" alt="librarydbms-img">
+          <div class="carousel-caption">
+            <h5>Library Database Management System</h5>
+            <p>A database system for a library using PHP and MySQL</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/blog.png" class="project-img" alt="blog-img">
+          <div class="carousel-caption">
+            <h5>Blog Website</h5>
+            <p>Blog website made with EJS and MongoDB</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <a href="https://shielded-woodland-18470.herokuapp.com/"><img src="images/todolist.png" class="project-img" alt="todolist-img"></a>
+          <div class="carousel-caption">
+            <h5>ToDo List</h5>
+            <p>To keep track of all your tasks</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <a href="https://anmol2006.github.io/drumkit/"><img src="images/drum-kit.png" class="project-img" alt="drum-kit-img"></a>
+          <div class="carousel-caption">
+            <h5>Drum Kit</h5>
+            <p>A simple drum kit to play drums!</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#project-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#project-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section>
+
+  <!-- About -->
+
+
+  <section class="white-section" id="about">
+    <div class="container-fluid">
+      <h2 class="skill-title">About Me</h2>
+      <div class="about-row">
+        <i class="fas fa-user-graduate fa-9x grad-img"></i>
+        <p class="about-text">I am currently an undergraduate student studying in one of the premier institutes of my country.</p>
+      </div>
+      <div class="about-row">
+        <img src="images/hobbies.png" class="hobby-img" alt="hobbies-img">
+        <p class="about-text">I love playing table tennis and badminton. I solve puzzles and riddles in my free time. I think of jokes when bored!</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer class="coloured-section" id="footer">
+    <p class="footer-text">
+      <i class="fa fa-phone"></i>
+      +91 9354026050
+    </p>
+    <p class="footer-text">
+      <i class="fas fa-envelope"></i>
+      anmolbansal200600@gmail.com
+    </p>
+    <p class="footer-text">© Copyright <script>
+        document.write(new Date().getFullYear())
+      </script> Anmol Bansal</p>
+
+  </footer>
+
+</body>
+
+</html>

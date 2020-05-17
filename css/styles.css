@@ -1,0 +1,212 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7.5% 15%;
+}
+
+/* Sections */
+.coloured-section {
+  background-color: #00ccff;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4rem;
+}
+
+/* .navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+} */
+.logo-img {
+  margin-top: -30px;
+  height: 150px;
+  width: 150px;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+/* Title Section */
+#title p {
+  color: #fff;
+  margin-top: 50px;
+}
+
+#title .container-fluid {
+  padding: 2% 15% 7%;
+  text-align: left;
+}
+
+.title-description {
+  font-size: 2rem;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+/* Title Image */
+.title-image {
+  width: 70%;
+  position: relative;
+  border-radius: 100%;
+  left: 35%;
+  margin-bottom: -2.5rem;
+}
+
+/* Skills */
+#skills {
+  padding: 3%;
+}
+
+#skills .container-fluid {
+  padding: 2% 15% 1%;
+}
+
+.skill-title {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.skill-box {
+  padding: 4%;
+}
+
+.skill-button {
+  color: #8601af;
+  margin: 1rem 0;
+}
+
+.skill-button:hover {
+  color: #fea436;
+}
+
+.skill-heading {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.skill-text {
+  text-align: center;
+  font-weight: 500;
+  color: black;
+  margin-top: 1rem;
+  font-size: 1.25rem;
+}
+
+/* Projects */
+#projects {
+  padding: 3%;
+}
+
+.project-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.project-img {
+  height: 35%;
+  width: 62%;
+  margin: 1.25rem;
+}
+
+.carousel-caption {
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
+#projects p {
+  margin-top: 0.5rem;
+  color: #fff;
+}
+
+/* About */
+#about .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.about-row {
+  width: 60%;
+  margin: 100px auto 100px;
+  text-align: left;
+}
+
+.about-text{
+  padding-top: 30px;
+}
+
+.grad-img {
+  position: relative;
+  bottom: 25px;
+  width: 30%;
+  float: right;
+  margin-left: 20px;
+}
+
+.hobby-img{
+  /* position: relative;
+  bottom: 25px; */
+  height: 170px;
+  width: 170px;
+  float:left;
+  margin-right: 20px;
+}
+
+/* Footer */
+#footer {
+  padding: 2.5% 0;
+}
+
+.footer-text {
+  color: #fff;
+  font-weight: 400;
+}
+
+@media (max-width:1065px) {
+  #title .container-fluid {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+  }
+}
